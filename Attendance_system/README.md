@@ -35,31 +35,7 @@ Attendance_system
 3. Add the MySQL Connector/J JAR to the project.
 4. Compile and run `Main.java`.
 
-#Overall Project Flow
 
-Enter Details
-      │
-      ▼
-+-------------------------+
-| Id        : 101         |
-| Name      : Surya       |
-| Subject1  : 90          |
-| Subject2  : 85          |
-| Subject3  : 88          |
-+-------------------------+
-      │
-      ▼
-Calculate Total
-      │
-      ▼
-Average = 87.67
-      │
-      ▼
-Submit
-      │
-      ├──► Add row to JTable
-      ├──► Save to MySQL
-      └──► Clear all fields
 ## Author
 
 SURYA LAKKIMSETTI
