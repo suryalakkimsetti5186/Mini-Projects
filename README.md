@@ -1,10 +1,12 @@
 # Mini Projects
 
-A collection of beginner-friendly projects developed using Java and C++ to solve real-world problems and strengthen programming skills.
+A collection of beginner-friendly projects developed using **Java, Java Swing, JDBC, MySQL, and C++** to solve real-world problems and strengthen programming skills.
+
+---
 
 ## Repository Structure
 
-```
+```text
 Mini-Projects
 │
 ├── Attendance_system
@@ -21,102 +23,151 @@ Mini-Projects
 │       ├── FeedbackForm.java
 │       └── Main.java
 │
+├── Quiz_system
+│   ├── README.md
+│   ├── .gitignore
+│   └── src
+│       ├── AddQuestions.java
+│       ├── AdminLogin.java
+│       ├── AdminPanel.java
+│       ├── DBConnection.java
+│       ├── DeleteQuestion.java
+│       ├── Homepage.java
+│       ├── Main.java
+│       ├── QuizForm.java
+│       ├── ResultForm.java
+│       ├── StudentLogin.java
+│       ├── StudentResults.java
+│       └── ViewQuestions.java
+│
 └── CPP
     └── ContactManagementSystem
 ```
 
 ---
 
-## Projects
+# Projects
 
-### 1. Attendance Management System (Java + JDBC)
+## 1. Attendance Management System (Java + JDBC)
 
 A desktop application developed using Java Swing and JDBC to manage student attendance records.
 
-#### Features
+### Features
 
-* Add student details
-* Calculate attendance percentage
-* Store records in MySQL database
-* Display records in a table
-* User-friendly Swing interface
+- Add student details
+- Calculate attendance percentage
+- Store records in MySQL database
+- Display attendance records
+- User-friendly Swing interface
 
-#### Technologies Used
+### Technologies Used
 
-* Java
-* Swing
-* JDBC
-* MySQL
+- Java
+- Swing
+- JDBC
+- MySQL
 
 ---
 
-### 2. Hostel Food Feedback System (Java + JDBC)
+## 2. Hostel Food Feedback System (Java + JDBC)
 
 A Java Swing application that allows hostel students to submit feedback about meals.
 
-#### Features
+### Features
 
-* Student name entry
-* Meal selection
-* Rating system
-* Comments section
-* Stores feedback in MySQL database
+- Student name entry
+- Meal selection
+- Food rating system
+- Comments section
+- Store feedback in MySQL database
 
-#### Technologies Used
+### Technologies Used
 
-* Java
-* Swing
-* JDBC
-* MySQL
+- Java
+- Swing
+- JDBC
+- MySQL
 
 ---
 
-### 3. Contact Management System (C++)
+## 3. Online Quiz System (Java + JDBC)
+
+A desktop-based quiz application developed using Java Swing and MySQL that enables administrators to manage quiz questions and students to attempt quizzes and view results.
+
+### Features
+
+#### Admin
+
+- Secure admin login
+- Add quiz questions
+- View questions
+- Delete questions
+- Manage question database
+
+#### Student
+
+- Student login
+- Attempt quizzes
+- Automatic score calculation
+- View quiz results
+
+### Technologies Used
+
+- Java
+- Swing
+- JDBC
+- MySQL
+
+---
+
+## 4. Contact Management System (C++)
 
 A console-based C++ application to manage contacts efficiently.
 
-#### Features
+### Features
 
-* Add contacts
-* Delete contacts
-* Search contacts
-* Display contacts
+- Add contacts
+- Delete contacts
+- Search contacts
+- Display contacts
 
-#### Concepts Used
+### Concepts Used
 
-* Functions
-* Structures
-* File Handling
-* Arrays / Vectors
+- Functions
+- Structures
+- File Handling
+- Arrays / Vectors
 
-#### Language
+### Language
 
-* C++
+- C++
 
 ---
 
-## Purpose
+# Purpose
 
 This repository is created to:
 
-* Practice programming concepts
-* Build problem-solving skills
-* Develop real-world mini applications
-* Improve Java, JDBC, Swing, MySQL, and C++ programming skills
-* Maintain an organized portfolio of projects
+- Practice programming concepts
+- Improve problem-solving skills
+- Build real-world desktop applications
+- Strengthen Java, Swing, JDBC, MySQL, and C++ development skills
+- Maintain an organized portfolio of mini projects
 
 ---
 
-## Technologies
+# Technologies
 
-* Java
-* Swing
-* JDBC
-* MySQL
-* C++
+- Java
+- Java Swing
+- JDBC
+- MySQL
+- C++
+- Git
+- GitHub
 
 ---
 
-## Author
+# Author
 
-**SURYA LAKKIMSETTI**
+**Surya Lakkimsetti**
