@@ -1,10 +1,10 @@
 # Mini Projects
 
-A collection of beginner-friendly projects developed using **Java, Java Swing, JDBC, MySQL, and C++** to solve real-world problems and strengthen programming skills.
+A collection of beginner-friendly desktop and console applications developed using **Java, Java Swing, JDBC, MySQL, and C++**. These projects were built to strengthen programming fundamentals, problem-solving skills, object-oriented programming concepts, database connectivity, and data structures through practical implementation.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 Mini-Projects
@@ -14,6 +14,9 @@ Mini-Projects
 │       ├── DBConnection.java
 │       ├── Main.java
 │       └── Studentform.java
+│
+├── ContactManagementSystem
+│   └── contact_management.cpp
 │
 ├── HostelFoodFeedback
 │   ├── LICENSE
@@ -40,8 +43,8 @@ Mini-Projects
 │       ├── StudentResults.java
 │       └── ViewQuestions.java
 │
-└── CPP
-    └── ContactManagementSystem
+├── .gitignore
+└── README.md
 ```
 
 ---
@@ -50,97 +53,101 @@ Mini-Projects
 
 ## 1. Attendance Management System (Java + JDBC)
 
-A desktop application developed using Java Swing and JDBC to manage student attendance records.
+A desktop application developed using Java Swing and JDBC to manage student attendance records efficiently.
 
 ### Features
 
-- Add student details
-- Calculate attendance percentage
-- Store records in MySQL database
-- Display attendance records
-- User-friendly Swing interface
+* Add student details
+* Calculate attendance percentage
+* Store attendance records in MySQL
+* Display attendance information
+* User-friendly Java Swing interface
 
 ### Technologies Used
 
-- Java
-- Swing
-- JDBC
-- MySQL
+* Java
+* Java Swing
+* JDBC
+* MySQL
 
 ---
 
 ## 2. Hostel Food Feedback System (Java + JDBC)
 
-A Java Swing application that allows hostel students to submit feedback about meals.
+A desktop application developed using Java Swing and MySQL that allows hostel students to submit feedback about meals and helps administrators review food quality.
 
 ### Features
 
-- Student name entry
-- Meal selection
-- Food rating system
-- Comments section
-- Store feedback in MySQL database
+* Student name entry
+* Meal selection
+* Food rating system
+* Feedback comments
+* Store feedback in MySQL database
 
 ### Technologies Used
 
-- Java
-- Swing
-- JDBC
-- MySQL
+* Java
+* Java Swing
+* JDBC
+* MySQL
 
 ---
 
 ## 3. Online Quiz System (Java + JDBC)
 
-A desktop-based quiz application developed using Java Swing and MySQL that enables administrators to manage quiz questions and students to attempt quizzes and view results.
+A desktop-based quiz application developed using Java Swing and MySQL. The system enables administrators to manage quiz questions while students can take quizzes and view their results.
 
 ### Features
 
-#### Admin
+#### Admin Module
 
-- Secure admin login
-- Add quiz questions
-- View questions
-- Delete questions
-- Manage question database
+* Admin login
+* Add quiz questions
+* View questions
+* Delete questions
 
-#### Student
+#### Student Module
 
-- Student login
-- Attempt quizzes
-- Automatic score calculation
-- View quiz results
+* Student login
+* Attempt quizzes
+* Automatic score calculation
+* View quiz results
 
 ### Technologies Used
 
-- Java
-- Swing
-- JDBC
-- MySQL
+* Java
+* Java Swing
+* JDBC
+* MySQL
 
 ---
 
 ## 4. Contact Management System (C++)
 
-A console-based C++ application to manage contacts efficiently.
+A console-based Contact Management System developed in **C++** using a **Singly Linked List** to dynamically store and manage contact information.
 
 ### Features
 
-- Add contacts
-- Delete contacts
-- Search contacts
-- Display contacts
+* Add new contacts
+* Display all contacts
+* Search contacts by name
+* Delete contacts by name
+* Dynamic contact storage using a Singly Linked List
+* Menu-driven console interface
 
 ### Concepts Used
 
-- Functions
-- Structures
-- File Handling
-- Arrays / Vectors
+* Object-Oriented Programming (OOP)
+* Singly Linked List
+* Dynamic Memory Allocation (`new` and `delete`)
+* Pointers
+* String Handling
+* Menu-Driven Programming
 
-### Language
+### Technologies Used
 
-- C++
+* C++
+* Standard Template Library (STL)
 
 ---
 
@@ -148,26 +155,43 @@ A console-based C++ application to manage contacts efficiently.
 
 This repository is created to:
 
-- Practice programming concepts
-- Improve problem-solving skills
-- Build real-world desktop applications
-- Strengthen Java, Swing, JDBC, MySQL, and C++ development skills
-- Maintain an organized portfolio of mini projects
+* Practice programming fundamentals
+* Improve problem-solving skills
+* Learn Object-Oriented Programming concepts
+* Build real-world desktop and console applications
+* Strengthen Java, Swing, JDBC, MySQL, and C++ development skills
+* Practice data structures through practical implementation
+* Maintain an organized portfolio of mini projects
 
 ---
 
 # Technologies
 
-- Java
-- Java Swing
-- JDBC
-- MySQL
-- C++
-- Git
-- GitHub
+* Java
+* Java Swing
+* JDBC
+* MySQL
+* C++
+* Object-Oriented Programming (OOP)
+* Linked List
+* Git
+* GitHub
+
+---
+
+# Future Improvements
+
+* Add screenshots for each project
+* Develop more Java Swing applications
+* Build Spring Boot backend mini projects
+* Add REST API projects
+* Improve UI/UX of existing applications
+* Add unit testing and documentation
 
 ---
 
 # Author
 
 **Surya Lakkimsetti**
+
+* GitHub: https://github.com/suryalakkimsetti5186
